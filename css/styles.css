@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-	width: 32%;
+	width: 100%;
 	height: auto;
 	padding: 15px 25px;
 	background-color: #F8F8F8;
@@ -81,7 +81,7 @@ body {
 .perfil-card img {
 	position: absolute;
 	top: -50px;
-	left: 48%;
+	left: 40%;
 }
 
 .perfil-card p {
@@ -220,3 +220,28 @@ body {
 /* PAUTAS VIDEO */
 
 /* MENU */
+
+/* QUERIES */
+@media (min-width:450px) {
+    .container {
+        max-width: 450px
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 450px
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 450px
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 450px
+    }
+}

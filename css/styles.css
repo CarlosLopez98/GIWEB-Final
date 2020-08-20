@@ -217,6 +217,24 @@ body {
 
 /* PORTAFOLIO*/
 
+
+.header-portafolio{
+	width: 100%;
+	float: left;
+	color: #545454;
+	display: inline-block;	
+}
+
+.contenido-portafolio{
+	display: flex;
+	width: 100%;
+}
+
+.contenido-portafolio div{
+	width: 100%;
+	margin: auto;
+}
+
 /* PAUTAS VIDEO */
 
 /* MENU */

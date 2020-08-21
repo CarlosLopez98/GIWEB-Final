@@ -217,6 +217,10 @@ body {
 
 /* PORTAFOLIO*/
 
+.portafolio{
+	background-color: white;
+	border-radius: 5px;
+}
 
 .header-portafolio{
 	width: 100%;
@@ -234,6 +238,52 @@ body {
 	width: 100%;
 	margin: auto;
 }
+
+.portafolio .grafico{
+	position: relative;
+	top: 5px;
+	left: 25px;
+	height: 140px;
+}
+
+.portafolio .grafico .imagen img{
+	width: 70px;
+}
+
+.contenido-portafolio{
+	height: 150px;
+}
+
+.portafolio .grafico .completo {
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	border-color: green transparent transparent transparent;
+	border-width: 12px;
+	border-style: solid;
+	border-radius: 50%;
+	z-index: 10;
+}
+
+.portafolio .grafico .vacio {
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	border: 8px solid #F8F8F8;
+	border-radius: 50%;
+}
+
+.portafolio .grafico .imagen {
+	position: relative;
+	top: 5px;
+	left: 40px;
+}
+
+
+
+
+
+
 
 /* PAUTAS VIDEO */
 

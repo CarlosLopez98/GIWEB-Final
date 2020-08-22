@@ -370,6 +370,84 @@ body {
 
 
 
+.pautas{
+	width: 100%;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.pautas-header {
+	width: 100%;
+	float: left;
+	color: #545454;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+.pautas-header h2 {
+	font-size: 23px;
+	font-weight: 400;
+	float: left;
+}
+
+.pautas-card {
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-top: 0px;
+	padding: 20px;
+	border-radius: 20px;
+	background: linear-gradient(180deg, rgba(44, 82, 216, 0) 0%, rgba(44, 82, 216, 0.4) 100%), #54D1ED;
+	color: white;
+}
+
+.pautas-card h2 {
+	position: absolute;
+	font-family: 'Roboto';
+	font-weight: 400;
+	top: 250px;
+	left: 20px;
+	z-index: 3;
+}
+
+.pautas-card #ahorro_letrero{
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+.pautas-card #ahorro_texto{
+	font-size: 15px;
+	top: 290px;
+}
+
+.pautas-card img{
+	position: absolute;
+}
+
+.pautas-card .calvo_ahorro{
+	top: 0px;
+	left: 0px;
+	height: 90%;
+	width: 100%;
+  z-index: 1;
+	border-radius: 15px;
+}
+
+.pautas-card .ahorro_wave{
+	bottom: -45px;
+	left: 0px;
+	height: 50%;
+	width: 100%;
+  z-index: 2;
+	border-radius: 20px;
+}
+
+.pautas-card p {
+	margin-top: 100px;
+}
+
+
+
 /* MENU */
 
 .menu-info {

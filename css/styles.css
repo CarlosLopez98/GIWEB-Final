@@ -1,3 +1,8 @@
+:root{
+	--color-portafolio: #17E648;
+	--color-portafolio-2: rgba(56,255,86,.15);
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -216,23 +221,63 @@ body {
 }
 
 /* PORTAFOLIO*/
-
 .portafolio{
-	background-color: white;
-	border-radius: 5px;
+	font-family: "Roboto", sans-serif;
+	font-weight: lighter;
 }
 
 .header-portafolio{
 	width: 100%;
 	float: left;
 	color: #545454;
-	display: inline-block;	
+	display: inline-block;
+}
+
+.header-portafolio p, .header-portafolio h2 {
+	display: inline-block;
+}
+
+.header-portafolio p{
+	float: right;
+	margin: 5px 10px;
+	padding: 5px 15px;
+	color: var(--color-portafolio);
+	background-color: var(--color-portafolio-2);
+	border: 1px solid var(--color-portafolio);
+	border-radius: 15px;
 }
 
 .contenido-portafolio{
+  background-color: white;
+	border-radius: 15px;	
+}
+
+.robot-portafolio{
 	display: flex;
 	width: 100%;
 }
+
+.robot-portafolio h2{
+	display: inline-block;	
+}
+
+.robot-portafolio .right{
+	float: right;
+	background-color: var(--color-portafolio);
+	color: white;
+	font-weight: bold;
+	
+	margin: 1px 5px;
+	padding: 1px 5px;
+	border-radius: 15px;
+}
+
+.robot-portafolio h3{
+	color: var(--color-portafolio);	
+	font-weight: lighter;
+	margin: 5px 0px;
+}
+
 
 .contenido-portafolio div{
 	width: 100%;
@@ -254,7 +299,7 @@ body {
 	position: absolute;
 	width: 150px;
 	height: 150px;
-	border-color: green transparent transparent transparent;
+	border-color: var(--color-portafolio) transparent transparent transparent;
 	border-width: 12px;
 	border-style: solid;
 	border-radius: 50%;
@@ -275,9 +320,13 @@ body {
 	left: 40px;
 }
 
-
-
-
+.descripcion-portafolio{
+	text-align: justify;
+	font-size: 15px;
+	font-weight: lighter;
+	line-height: 1.5em;
+	letter-spacing: 0.01em;
+}
 
 
 

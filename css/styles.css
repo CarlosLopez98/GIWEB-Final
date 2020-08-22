@@ -360,19 +360,82 @@ body {
 	border-radius: 20px;
 }
 
-
-
 .pautas-card p {
 	margin-top: 100px;
 }
 
-.pautas-card h3 {
-	font-size: 50px;
-	font-weight: 500;
-}
 
 
 /* MENU */
+.Footer {
+position: relative;
+width: 100%;
+margin-top: 40px;
+padding: 10px;
+border-radius: 15px;
+color: white;
+}
+
+.Footer .imgBg {
+position: relative;
+width: 100%;
+z-index: 1;
+}
+
+.Footer .imgPlus {
+position: relative;
+width: 60px;
+height: 60px;
+bottom: -35px;
+left: 160px;
+border-radius: 20px;
+/margin-top: 40px;/
+}
+
+.Footer .home {
+position: absolute;
+color: blue;
+z-index: 2;
+bottom: 25px;
+left: 40px;
+border-radius: 20px;
+}
+
+.Footer .historial {
+position: absolute;
+color: gray;
+z-index: 2;
+bottom: 25px;
+left: 105px;
+border-radius: 20px;
+}
+
+.Footer .perfil {
+position: absolute;
+color: gray;
+z-index: 2;
+bottom: 25px;
+left: 70px;
+border-radius: 20px;
+}
+
+.Footer .mas {
+position: absolute;
+color: gray;
+z-index: 2;
+bottom: 25px;
+left: 320px;
+border-radius: 20px;
+}
+
+.Footer i {
+font-size: 30px;
+}
+
+.Footer p {
+text-align: center;
+font-size: 14px;
+}
 
 /* QUERIES */
 @media (min-width:450px) {

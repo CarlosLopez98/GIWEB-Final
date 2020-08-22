@@ -221,10 +221,9 @@ body {
 }
 
 /* PORTAFOLIO*/
-
 .portafolio{
-	background-color: white;
-	border-radius: 5px;
+	font-family: "Roboto", sans-serif;
+	font-weight: lighter;
 }
 
 .header-portafolio{
@@ -234,10 +233,51 @@ body {
 	display: inline-block;
 }
 
+.header-portafolio p, .header-portafolio h2 {
+	display: inline-block;
+}
+
+.header-portafolio p{
+	float: right;
+	margin: 5px 10px;
+	padding: 5px 15px;
+	color: var(--color-portafolio);
+	background-color: var(--color-portafolio-2);
+	border: 1px solid var(--color-portafolio);
+	border-radius: 15px;
+}
+
 .contenido-portafolio{
+  background-color: white;
+	border-radius: 15px;	
+}
+
+.robot-portafolio{
 	display: flex;
 	width: 100%;
 }
+
+.robot-portafolio h2{
+	display: inline-block;	
+}
+
+.robot-portafolio .right{
+	float: right;
+	background-color: var(--color-portafolio);
+	color: white;
+	font-weight: bold;
+	
+	margin: 1px 5px;
+	padding: 1px 5px;
+	border-radius: 15px;
+}
+
+.robot-portafolio h3{
+	color: var(--color-portafolio);	
+	font-weight: lighter;
+	margin: 5px 0px;
+}
+
 
 .contenido-portafolio div{
 	width: 100%;
@@ -248,22 +288,18 @@ body {
 	position: relative;
 	top: 5px;
 	left: 25px;
-	height: 140px;
+	height: 160px;
 }
 
 .portafolio .grafico .imagen img{
 	width: 70px;
 }
 
-.contenido-portafolio{
-	height: 150px;
-}
-
 .portafolio .grafico .completo {
 	position: absolute;
 	width: 150px;
 	height: 150px;
-	border-color: green transparent transparent transparent;
+	border-color: var(--color-portafolio) transparent transparent transparent;
 	border-width: 12px;
 	border-style: solid;
 	border-radius: 50%;
@@ -280,95 +316,21 @@ body {
 
 .portafolio .grafico .imagen {
 	position: relative;
-	top: 5px;
+	top: 15px;
 	left: 40px;
 }
 
-
-
-
+.descripcion-portafolio{
+	text-align: justify;
+	font-size: 15px;
+	font-weight: lighter;
+	line-height: 1.5em;
+	letter-spacing: 0.01em;
+}
 
 
 
 /* PAUTAS VIDEO */
-
-.pautas{
-	width: 100%;
-	margin-top: 20px;
-	display: inline-block;
-}
-
-.pautas-header {
-	width: 100%;
-	float: left;
-	color: #545454;
-	display: inline-block;
-	margin-bottom: 15px;
-}
-
-.pautas-header h2 {
-	font-size: 23px;
-	font-weight: 400;
-	float: left;
-}
-
-.pautas-card {
-	position: relative;
-	float: left;
-	width: 100%;
-	margin-top: 0px;
-	padding: 20px;
-	border-radius: 20px;
-	background: linear-gradient(180deg, rgba(44, 82, 216, 0) 0%, rgba(44, 82, 216, 0.4) 100%), #54D1ED;
-	color: white;
-}
-
-.pautas-card h2 {
-	position: absolute;
-	font-family: 'Roboto';
-	font-weight: 400;
-	top: 250px;
-	left: 20px;
-	z-index: 3;
-}
-
-.pautas-card #ahorro_letrero{
-	font-size: 30px;
-	font-weight: bolder;
-}
-
-.pautas-card #ahorro_texto{
-	font-size: 15px;
-	top: 290px;
-}
-
-.pautas-card img{
-	position: absolute;
-}
-
-.pautas-card .calvo_ahorro{
-	top: 0px;
-	left: 0px;
-	height: 90%;
-	width: 100%;
-  z-index: 1;
-	border-radius: 15px;
-}
-
-.pautas-card .ahorro_wave{
-	bottom: -45px;
-	left: 0px;
-	height: 50%;
-	width: 100%;
-  z-index: 2;
-	border-radius: 20px;
-}
-
-.pautas-card p {
-	margin-top: 100px;
-}
-
-
 
 .pautas{
 	width: 100%;

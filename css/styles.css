@@ -74,7 +74,6 @@ body {
 }
 
 .perfil-card h2 {
-	position: absolute;
 	font-size: 30px;
 	font-weight: 400;
 }
@@ -367,6 +366,70 @@ body {
 
 
 /* MENU */
+
+.menu-info {
+	position: relative;
+	width: 100%;
+	float: left;
+	margin-top: 80px;
+	padding: 20px;
+	background-color: white;
+	border-radius: 15px;
+}
+
+.menu-info .campo {
+	width: 100%;
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+  margin-bottom: 12px;
+	color: #545454;
+}
+
+.menu-info .campo h4 {
+	font-size: 18px;
+	color: gray;
+	font-weight: 400;
+}
+
+.menu-info .campo p{
+	float: left;
+	font-size: 14px;
+	color: gray;
+	width: 70%;
+}
+
+.menu-info .campo img {
+	position: absolute;
+	width: 95px;
+	right: 15px;
+}
+
+.menu-info .campo #img1 {
+	top: 32px;
+}
+
+.menu-info .campo #img2 {
+	top: 160px;
+}
+
+.menu-info .campo #img3 {
+	top: 290px;
+}
+
+.menu-info .campo h5 {
+	float: right;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.menu-info hr {
+	background-color: #f1f1f1;
+	height: 1px;
+	border: 0;
+}
+
+/*Footer*/
 .Footer {
 position: relative;
 width: 100%;

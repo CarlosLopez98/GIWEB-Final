@@ -243,15 +243,11 @@ body {
 	position: relative;
 	top: 5px;
 	left: 25px;
-	height: 140px;
+	height: 160px;
 }
 
 .portafolio .grafico .imagen img{
 	width: 70px;
-}
-
-.contenido-portafolio{
-	height: 150px;
 }
 
 .portafolio .grafico .completo {
@@ -275,7 +271,7 @@ body {
 
 .portafolio .grafico .imagen {
 	position: relative;
-	top: 5px;
+	top: 15px;
 	left: 40px;
 }
 
